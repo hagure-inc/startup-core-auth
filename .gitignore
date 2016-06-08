@@ -15,7 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
-.ruby-version
 
 /*.lock
 /vendor/bundle
@@ -27,6 +26,7 @@
 .idea/dictionaries
 .idea/vcs.xml
 .idea/jsLibraryMappings.xml
+.idea/runConfigurations
 
 # Sensitive or high-churn files:
 .idea/dataSources.ids
