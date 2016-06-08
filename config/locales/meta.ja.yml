@@ -1,0 +1,18 @@
+ja:
+  tests: # view名
+    index:  # action名
+      title: テストタイトル             # このviewの中では t('.title')と記載できる
+      keywords: テストキーワード
+      description: てすとでぃすくりぷしょん
+    new:
+      title:
+      keywords:
+      description:
+    show:
+      title:
+      keywords:
+      description:
+    edit:
+      title:
+      keywords:
+      description:
