@@ -35,6 +35,12 @@ gem 'sitemap_generator'
 
 # Load jquery from CDN
 gem 'jquery-rails-cdn'
+
+# Test tools
+group :development, :test do
+  gem 'rspec-rails', '~> 3.4'
+  gem 'factory_girl_rails'
+end
 ```
 
 ## Getting Started
@@ -122,4 +128,13 @@ These gems are not especially configured.
 gem 'active_decorator' # Decorator
 gem 'kaminari' # Paginate
 gem 'sitemap_generator' # SEO
+# Test tools
+group :development, :test do 
+  gem 'rspec-rails', '~> 3.4'
+  gem 'factory_girl_rails'
+end
 ```
+
+## Other Changes
+- Asset pipeline settings are done
+- .gitignore is modified in order not to include .idea and some other files
