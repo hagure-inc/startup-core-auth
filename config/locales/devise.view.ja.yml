@@ -1,0 +1,28 @@
+ja:
+  devise:
+    links:
+      Log in: ログイン
+      Sign up: ユーザー登録
+      Forgot your password?: パスワードの再設定
+      Didn't receive confirmation instructions?: アカウント認証の案内を受け取っていません
+      Didn't receive unlock instructions?: アカウントロック解除の案内を受け取っていません
+    confirmations:
+      new:
+        title: アカウント認証メールを送る
+    passwords:
+      new:
+        title: パスワード再設定の案内メールを送る
+      edit:
+        title: パスワードの再設定
+    registrations:
+      new:
+        title: ユーザー登録
+      edit:
+        title: ユーザー情報編集
+        Currently waiting confirmation for: "%{email}が正しいメールアドレスか確認を待っています"
+        leave blank if you don't want to change it: 変更しない場合は空欄のまま
+        Cancel my account: アカウントの削除
+    sessions:
+      new:
+        title: ログイン
+        submit: ログインする

@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Slim for templates
 gem 'slim-rails'
 
-# gem 'devise'
+gem 'devise'
 
 gem 'active_decorator'
 gem 'friendly_id'
