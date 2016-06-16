@@ -81,16 +81,18 @@ irb(main):001:0> AdminUser.create!(:email => 'admin@example.com', :password => '
 https://github.com/settingslogic/settingslogic
 - Use config/application.yml as the settings file
 
+
 ### I18n
 https://github.com/amatsuda/i18n_generators
 - Set Japanese as default language and created Japanese locale files under /config/locales
+
 
 ### Devise
 https://github.com/plataformatec/devise
 - Created User
 - Changed view templates from .erb to .slim
 - Created Japanese messages for devise at /config/locales/devise.ja.yml, devise.meta.ja.yml, devise.view.ja.yml
-- _NOTE_ You need to configure email settings to send confirmation/password_reset/unlock emails
+- *NOTE* You need to configure email settings to send confirmation/password_reset/unlock emails
 
 ### ActiveAdmin
 http://activeadmin.info/index.html
@@ -99,16 +101,19 @@ http://activeadmin.info/index.html
 
 ### Slim
 https://github.com/slim-template/slim-rails
-- Initial Setup is done to use Slim as a template engine
+- Use Slim as a template engine
+
 
 ### meta-tags
 https://github.com/kpumuk/meta-tags
 - Set default meta tags
-Detailed setup information(in Japanese): http://qiita.com/tomomomo1217/items/912afba852dc524d748e
+
+Detailed setup information(in Japanese):  
+http://qiita.com/tomomomo1217/items/912afba852dc524d748e
 
 ### jquery-rails-cdn
 https://github.com/kenn/jquery-rails-cdn
-- Initial setup is done to load jquery from google CDN
+- Load jquery from google CDN
 
 
 ## Other Gems
