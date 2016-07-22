@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pj-kodomoto.iml" filepath="$PROJECT_DIR$/.idea/pj-kodomoto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pj-startup.iml" filepath="$PROJECT_DIR$/.idea/pj-startup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/startup-core-auth.iml" filepath="$PROJECT_DIR$/.idea/startup-core-auth.iml" />
     </modules>
   </component>
 </project>

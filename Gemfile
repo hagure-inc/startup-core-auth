@@ -2,14 +2,12 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '5.0.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
 # gem 'sqlite3'
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -31,8 +29,17 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Slim for templates
 gem 'slim-rails'
 
+# Authentication
 gem 'devise'
+
+# Admin page
 gem 'activeadmin', github: 'activeadmin'
+# Active admin for rails5 related gem settings
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+gem 'ransack',             github: 'activerecord-hackery/ransack'
+gem 'draper',              '> 3.x'
+gem 'sass-rails',          github: 'rails/sass-rails' # For Sprockets 4
+
 
 gem 'active_decorator'
 gem 'friendly_id'
