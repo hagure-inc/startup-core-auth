@@ -1,7 +1,13 @@
 ## System
 - Ruby 2.3.0
-- Rails 4.2.0
+- Rails 5.0.0
 - DB postgresql
+
+__NOTE__
+This project was upgraded from Rails 4.2.6 to 5.0.0.
+- ActionCable is not installed as I thought ActionCable was not essential for every project.
+- The default development server or Rails 5.0. is Puma but this project still uses WEBrick.
+
 
 ## Added Gems
 ```ruby
