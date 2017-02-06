@@ -73,7 +73,7 @@ development:
 Set your database username to the environment variable RAILS_DATABASE_USERNAME, If you would like to use it.
 Add the line below to $User/.bash_profile and restart PC.
 ```
-export RAILS_DATABASE_USERNAME=ueokatomoko
+export RAILS_DATABASE_USERNAME="YOUR POSTGRES USERNAME"
 ```
 
 #### Create DB
